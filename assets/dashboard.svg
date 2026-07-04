@@ -1,0 +1,118 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg"
+     font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <defs>
+    <linearGradient id="head" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4a3aa7"/>
+      <stop offset="100%" stop-color="#1baf7a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="#f9f9f7"/>
+
+  <!-- header -->
+  <rect x="0" y="0" width="1200" height="86" fill="url(#head)"/>
+  <text x="30" y="42" font-size="26" font-weight="700" fill="#ffffff">Ethical Considerations in Prescriptive Analytics</text>
+  <text x="30" y="70" font-size="15" fill="#e4defb">Linear Integer Programming (LIP) · balancing optimisation with human welfare</text>
+
+  <!-- KPI tiles -->
+  <rect x="30" y="110" width="360" height="100" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="30" y="110" width="6" height="100" rx="3" fill="#4a3aa7"/>
+  <text x="58" y="146" font-size="14" font-weight="600" fill="#898781" letter-spacing="1">OPTIMISATION METHOD</text>
+  <text x="56" y="192" font-size="40" font-weight="700" fill="#0b0b0b">LIP</text>
+  <text x="250" y="192" font-size="13" fill="#898781">Branch &amp; Bound</text>
+
+  <rect x="420" y="110" width="360" height="100" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="420" y="110" width="6" height="100" rx="3" fill="#1baf7a"/>
+  <text x="448" y="146" font-size="14" font-weight="600" fill="#898781" letter-spacing="1">ETHICAL PRINCIPLES</text>
+  <text x="446" y="192" font-size="40" font-weight="700" fill="#0b0b0b">4</text>
+
+  <rect x="810" y="110" width="360" height="100" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="810" y="110" width="6" height="100" rx="3" fill="#eda100"/>
+  <text x="838" y="146" font-size="14" font-weight="600" fill="#898781" letter-spacing="1">WORKED CASE STUDY</text>
+  <text x="836" y="192" font-size="40" font-weight="700" fill="#0b0b0b">1</text>
+  <text x="890" y="192" font-size="13" fill="#898781">Retail scheduling</text>
+
+  <!-- principle cards -->
+  <text x="30" y="248" font-size="16" font-weight="700" fill="#0b0b0b">Ethical Principles for Responsible Optimisation</text>
+
+  <!-- Fairness -->
+  <rect x="30" y="262" width="270" height="150" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="30" y="262" width="6" height="150" rx="3" fill="#1baf7a"/>
+  <circle cx="66" cy="298" r="16" fill="#1baf7a"/>
+  <text x="66" y="304" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">F</text>
+  <text x="92" y="303" font-size="15" font-weight="700" fill="#0b0b0b">Fairness</text>
+  <text x="24" y="338" font-size="12" fill="#52514e"><tspan x="48">Add welfare constraints so</tspan><tspan x="48" dy="17">schedules don't sacrifice staff</tspan><tspan x="48" dy="17">wellbeing for pure efficiency.</tspan></text>
+
+  <!-- Privacy -->
+  <rect x="320" y="262" width="270" height="150" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="320" y="262" width="6" height="150" rx="3" fill="#2a78d6"/>
+  <circle cx="356" cy="298" r="16" fill="#2a78d6"/>
+  <text x="356" y="304" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">P</text>
+  <text x="382" y="303" font-size="15" font-weight="700" fill="#0b0b0b">Privacy</text>
+  <text x="314" y="338" font-size="12" fill="#52514e"><tspan x="338">Anonymise employee &amp;</tspan><tspan x="338" dy="17">customer identifiers; obtain</tspan><tspan x="338" dy="17">explicit consent before use.</tspan></text>
+
+  <!-- Accountability -->
+  <rect x="610" y="262" width="270" height="150" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="610" y="262" width="6" height="150" rx="3" fill="#eda100"/>
+  <circle cx="646" cy="298" r="16" fill="#eda100"/>
+  <text x="646" y="304" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">A</text>
+  <text x="672" y="303" font-size="15" font-weight="700" fill="#0b0b0b">Accountability</text>
+  <text x="604" y="338" font-size="12" fill="#52514e"><tspan x="628">Keep automated LIP decisions</tspan><tspan x="628" dy="17">auditable, with ongoing</tspan><tspan x="628" dy="17">fairness monitoring.</tspan></text>
+
+  <!-- Multi-objective -->
+  <rect x="900" y="262" width="270" height="150" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <rect x="900" y="262" width="6" height="150" rx="3" fill="#4a3aa7"/>
+  <circle cx="936" cy="298" r="16" fill="#4a3aa7"/>
+  <text x="936" y="304" font-size="15" font-weight="700" fill="#ffffff" text-anchor="middle">M</text>
+  <text x="962" y="303" font-size="15" font-weight="700" fill="#0b0b0b">Multi-Objective</text>
+  <text x="894" y="338" font-size="12" fill="#52514e"><tspan x="918">Optimise efficiency AND</tspan><tspan x="918" dy="17">responsibility together —</tspan><tspan x="918" dy="17">not profit alone.</tspan></text>
+
+  <!-- Challenge -> Safeguard panel -->
+  <rect x="30" y="432" width="700" height="290" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <circle cx="48" cy="464" r="5" fill="#e34948"/>
+  <text x="62" y="469" font-size="16" font-weight="700" fill="#0b0b0b">Ethical Challenge → Safeguard</text>
+
+  <g font-size="13">
+    <!-- row 1 -->
+    <circle cx="56" cy="512" r="5" fill="#e34948"/>
+    <text x="70" y="516" fill="#0b0b0b">Over-optimisation vs staff wellbeing</text>
+    <text x="392" y="517" font-size="16" fill="#898781">→</text>
+    <circle cx="420" cy="512" r="5" fill="#1baf7a"/>
+    <text x="434" y="516" fill="#52514e">Welfare constraints in the model</text>
+    <!-- row 2 -->
+    <circle cx="56" cy="558" r="5" fill="#e34948"/>
+    <text x="70" y="562" fill="#0b0b0b">Sensitive employee / customer data</text>
+    <text x="392" y="563" font-size="16" fill="#898781">→</text>
+    <circle cx="420" cy="558" r="5" fill="#1baf7a"/>
+    <text x="434" y="562" fill="#52514e">Anonymisation + explicit consent</text>
+    <!-- row 3 -->
+    <circle cx="56" cy="604" r="5" fill="#e34948"/>
+    <text x="70" y="608" fill="#0b0b0b">Opaque automated decisions</text>
+    <text x="392" y="609" font-size="16" fill="#898781">→</text>
+    <circle cx="420" cy="604" r="5" fill="#1baf7a"/>
+    <text x="434" y="608" fill="#52514e">Accountability &amp; fairness audits</text>
+    <!-- row 4 -->
+    <circle cx="56" cy="650" r="5" fill="#e34948"/>
+    <text x="70" y="654" fill="#0b0b0b">Regulatory &amp; compliance exposure</text>
+    <text x="392" y="655" font-size="16" fill="#898781">→</text>
+    <circle cx="420" cy="650" r="5" fill="#1baf7a"/>
+    <text x="434" y="654" fill="#52514e">Continuous compliance monitoring</text>
+  </g>
+  <text x="52" y="700" font-size="11" fill="#898781">Trade-off: added constraints raise computational and compliance cost — the price of responsible optimisation.</text>
+
+  <!-- Case study panel -->
+  <rect x="750" y="432" width="420" height="290" rx="10" fill="#ffffff" stroke="rgba(11,11,11,0.10)"/>
+  <circle cx="768" cy="464" r="5" fill="#4a3aa7"/>
+  <text x="782" y="469" font-size="16" font-weight="700" fill="#0b0b0b">Case Study — Retail Staff Scheduling</text>
+
+  <rect x="770" y="490" width="380" height="90" rx="8" fill="#fdeceb" stroke="#f2c5c3"/>
+  <text x="786" y="514" font-size="12" font-weight="700" fill="#c0322f">⚠ RISK</text>
+  <text x="786" y="536" font-size="12" fill="#52514e"><tspan x="786">Employee attendance &amp; health data were</tspan><tspan x="786" dy="17">used to build schedules without consent —</tspan><tspan x="786" dy="17">efficient, but exploitative and non-compliant.</tspan></text>
+
+  <rect x="770" y="596" width="380" height="100" rx="8" fill="#e9f7f1" stroke="#bfe6d6"/>
+  <text x="786" y="620" font-size="12" font-weight="700" fill="#0e7a55">✓ SAFEGUARDED SOLUTION</text>
+  <text x="786" y="642" font-size="12" fill="#52514e"><tspan x="786">Identifiers anonymised and prior authorisation</tspan><tspan x="786" dy="17">obtained. Welfare constraints added, so the</tspan><tspan x="786" dy="17">model reaches balanced staffing while</tspan><tspan x="786" dy="17">respecting privacy.</tspan></text>
+
+  <!-- footer -->
+  <text x="30" y="748" font-size="12" fill="#898781">Heta Chavda · Data Analytics Portfolio</text>
+</svg>
